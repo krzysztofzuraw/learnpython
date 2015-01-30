@@ -1,0 +1,70 @@
+[<pre cl="" data-bind-ip="raw_data">% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '89.67.0.0 - 89.74.255.255'
+
+% Abuse contact for '89.67.0.0 - 89.74.255.255' is 'abuse@upc.com.pl'
+
+inetnum:        89.67.0.0 - 89.74.255.255
+netname:        UPC-PL
+descr:          UPC Polska Sp. z o.o.
+descr:          CPE Customers PL
+country:        PL
+admin-c:        UP94-RIPE
+tech-c:         LGI-RIPE
+status:         ASSIGNED PA
+remarks:        Contact abuse@upc.com.pl concerning criminal
+remarks:        activities like spam, hacks, portscans
+mnt-by:         MNT-LGI
+source:         RIPE # Filtered
+
+role:           Hostmaster Liberty Global
+address:        Liberty Global Europe
+address:        Boeing Avenue 53
+address:        1119 PE Schiphol Rijk
+address:        Netherlands
+phone:          +31 20 7788200
+fax-no:         +31 20 7788203
+admin-c:        SB666-RIPE
+admin-c:        SVS4-RIPE
+tech-c:         SB666-RIPE
+tech-c:         SVS4-RIPE
+nic-hdl:        LGI-RIPE
+mnt-by:         MNT-LGI
+source:         RIPE # Filtered
+
+role:           UPC Poland
+address:        UPC Polska Sp. z o.o.
+                Al. Jana Pawla II 27
+                00-867 Warszawa
+                Poland
+admin-c:        UPC48-RIPE
+tech-c:         UPC48-RIPE
+nic-hdl:        UP94-RIPE
+mnt-by:         UPC-PL-MNT
+source:         RIPE # Filtered
+
+% Information related to '89.68.0.0/16AS9141'
+
+route:          89.68.0.0/16
+descr:          UPC.pl
+origin:         AS9141
+remarks:        Any abuse activities including, but not limited to spamming,
+remarks:        hacking and intrusion attempts coming from chello.pl address
+remarks:        space shall be reported ONLY to:
+remarks:
+remarks:        abuse@chello.pl
+remarks:
+remarks:        Any reports sent to any other e-mail addresses may be treated
+remarks:        as SPAM itself and followed by legal actions
+remarks:        against originator
+mnt-by:         AS6830-MNT
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.76.1 (DB-2)</pre>]
