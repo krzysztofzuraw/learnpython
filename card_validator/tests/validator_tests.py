@@ -19,8 +19,8 @@ import card_validator.validator as vali
     
 def test_good():
     assert_equals(vali.number_validator(353275011731396), "number is correct")
-    assert_equals(vali.number_validator(4251250001228658), "number is correct")
-    assert_equals(vali.number_validator(5102590100666565), "number is correct")
+    assert_equals(vali.number_validator(5555555555554444), "number is correct")
+    assert_equals(vali.number_validator(4111111111111111), "number is correct")
     
 def test_bad():
     assert_equals(vali.number_validator(353275321731396), "there is something wrong with this number")
