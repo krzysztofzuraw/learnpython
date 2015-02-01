@@ -1,3 +1,5 @@
+import re
+
 def number_validator(number):
     """
     Credit card validator using LUHN algorithm
@@ -16,8 +18,32 @@ def number_validator(number):
         return "number is correct"
     else:
         return "there is something wrong with this number"
-    #if (10 - sum(number_list) % 10) % 10 == number_list[0]:
-    #     return "ok"
     
 #TODO: check bank name of card
-    
+def check_issuer(number):
+    """
+    Check name of cards bank by  first digits
+    """
+    if len(str(number)) not in (14,16,17,18,19):
+        return "This is not credit card number"
+    visa = re.search('^4[\d]+', str(number))
+    mastercard = re.search('^5[1-5][\d]+', str(number))
+    diners = re.search('^2014[0-9]+|^2149[0-9]+|^30[0-5][0-9]+|^36[0-9]+|^38[0-9]+', str(number))
+    jcb = re.search('^3[^4,6,7,8][0-9]+|^1800[0-9]+|^2131[0-9]+', str(number))
+    express = re.search('^34[0-9]+|^36[0-9]+', str(number))
+    if visa:
+        return "This is visa card"
+    elif mastercard:
+        return "This is mastercard card"
+    elif diners:
+        return "This is diners card"
+    elif jcb:
+        return "This is jcb card"
+    elif express:
+        return "This is american express card"
+    else:
+        return "This issuer is not in database"
+        
+        
+        
+        
