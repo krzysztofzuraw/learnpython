@@ -9,7 +9,7 @@ In this README file I will link each project that I finish or I'm working at.
 
 [**Bank Account Manager**](https://github.com/Noaal/learnpython/blob/master/bank/Bank/bank.py)- Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount and BusinessAccount. Manage credits and debits from these accounts through an ATM style program
 
-[**Credit Card Validator**](https://github.com/Noaal/learnpython/blob/master/card_validator/card_validator/validator.py)- Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (using LUHN algorithm).
+[**Credit Card Validator**](https://github.com/Noaal/learnpython/blob/master/card_validator/card_validator/validator.py)- Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discover) and validates it to make sure that it is a valid number (using LUHN algorithm).
 
 [**Caesar cipher**](https://github.com/Noaal/learnpython/blob/master/cezar/Cezar/cezar_cipher.py)- Implement a Caesar cipher, both encoding and decoding.
 
