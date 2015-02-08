@@ -19,7 +19,7 @@ def number_validator(number):
     else:
         return "there is something wrong with this number"
     
-#TODO: check bank name of card
+
 def check_issuer(number):
     """
     Check name of cards bank by  first digits
