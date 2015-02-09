@@ -40,3 +40,5 @@ In this README file I will link each project that I finish or I'm working at.
 [**Merge and Insertion sorting alogrithms**](https://github.com/Noaal/learnpython/blob/master/sorting/Sorting/sorting.py)
 
 [**Temperature converter**](https://github.com/Noaal/learnpython/blob/master/temperatureConv/converter/converter.py)- Converting between: Celcius, Kalvin and Farenheit
+
+[**Product Inventory Project**](https://github.com/Noaal/learnpython/blob/master/product/product/product_inv.py)- Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
